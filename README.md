@@ -5,6 +5,6 @@
 ![alt](https://i.imgur.com/WUc7KBl.png)
 
 ##### טבלאת המעקב:
-Variable | num1 | num2 | num3 |
+Variable | num1 | num2 | num3 | check |
 --- | --- | --- | --- |
-Value | 6 | 45 | 73 | 
+Value | 6 | 45 | 73 | 0 | 
