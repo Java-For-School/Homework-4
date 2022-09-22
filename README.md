@@ -14,3 +14,23 @@ Value | 6 | 45 | 73 | 2 |
 ##### מטרת התוכנית:
 לוודא שבין שלושה מספרים א1, א2, א3 סורר המצב הבא: א1 < א2 < א3.
 
+### שאלה 6:
+```java
+import java.util.Scanner;
+
+class HelloWorld {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        double first, second, third;
+        
+        first = scanner.nextDouble();
+        second = scanner.nextDouble();
+        third = scanner.nextDouble();
+        
+        if (first > second + third || second > first + third || third > first + second) System.out.println("YES");
+        else System.out.println("NO");
+        
+    }
+}
+```
