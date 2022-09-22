@@ -111,3 +111,7 @@ Variable | num | d1 | d2 | d3 |
 --- | --- | --- | --- | --- |
 Value | 321 | 1 | 2 | 3 | 
 --- | --- | --- | --- | --- |
+
+###### Aim of program:
+
+Program is aimed to determine whether a number is made of digits that are in a descending or ascending order.
