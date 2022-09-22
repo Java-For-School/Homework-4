@@ -76,3 +76,27 @@ class HelloWorld {
 }
 ```
 
+### שאלה 9:
+```java
+import java.util.Scanner;
+import java.io.IOException;
+
+class HelloWorld {
+    public static void main(String[] args) throws IOException {
+        Scanner scanner = new Scanner(System.in);
+        
+        int number = scanner.nextInt();
+        if (number < 100 || number > 999) throw new IOException("Input is invalid");
+        
+        int first, second, third;
+        first = number % 10;
+        second = number / 10 % 10;
+        third = number / 100 % 10;
+        
+        if ((first % 2 == 1) && (second % 2 == 1) && (third % 2 == 1)) System.out.println("ODD");
+        if ((first % 2 == 0) && (second % 2 == 0) && (third % 2 == 0)) System.out.println("EVEN");
+        else System.out.println("MIXED");
+        
+    }
+}
+```
