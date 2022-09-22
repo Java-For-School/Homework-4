@@ -34,3 +34,19 @@ class HelloWorld {
     }
 }
 ```
+### שאלה 7:
+```java
+import java.util.Scanner;
+
+class HelloWorld {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        int number = scanner.nextInt();
+        if (number < 100 || number > 999) return;
+        
+        if (number % 10 == number / 10 % 10 || number % 10 == number / 100 % 10 || number / 10 % 10 == number / 100 % 10) System.out.println("Repeating");
+        else System.out.println("Unique");
+        
+    }
+}```
