@@ -1,3 +1,3 @@
 # Assignment 4:
 
-![alt](https://imgur.com/WUc7KBl)
+![alt](https://i.imgur.com/WUc7KBl.png)
