@@ -102,3 +102,12 @@ class HelloWorld {
 ```
 
 ![alt](https://i.imgur.com/tNVnrY6.png)
+Variable | num | d1 | d2 | d3 |
+--- | --- | --- | --- | --- |
+Value | 576 | 6 | 7 | 5 | 
+--- | --- | --- | --- | --- |
+
+Variable | num | d1 | d2 | d3 |
+--- | --- | --- | --- | --- |
+Value | 321 | 1 | 2 | 3 | 
+--- | --- | --- | --- | --- |
