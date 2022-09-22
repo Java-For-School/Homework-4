@@ -50,3 +50,27 @@ class HelloWorld {
         
     }
 }```
+
+### שאלה 8:
+```java
+import java.util.Scanner;
+import java.io.IOException;
+
+class HelloWorld {
+    public static void main(String[] args) throws IOException {
+        Scanner scanner = new Scanner(System.in);
+        
+        int number = scanner.nextInt();
+        if (number < 100 || number > 999) throw new IOException("Input is invalid");
+        
+        int first, second, third;
+        first = number % 10;
+        second = number / 10 % 10;
+        third = number / 100 % 10;
+        if (first > 5 && second > 5 && third > 5) System.out.println("BIG");
+        else if (!(first > 5 || second > 5 || third > 5)) System.out.println("SMALL");
+        else System.out.println("MIXED");
+        
+    }
+}```
+
