@@ -8,3 +8,5 @@
 Variable | num1 | num2 | num3 | check |
 --- | --- | --- | --- | --- |
 Value | 6 | 45 | 73 | 0 | 
+Value | 6 | 45 | 73 | 1 |
+Value | 6 | 45 | 73 | 2 |
